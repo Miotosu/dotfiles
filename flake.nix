@@ -16,7 +16,9 @@
       specialArgs = { inherit inputs; };
       modules = [
         ./NixOS/hosts/thinkpad-x270/configuration.nix
+        home-manager.nixosModules.home-manager
       ];
+      home-manager.users.klouwer = import ./NixOS/home-manager/home.nix { inherit config pkgs inputs; };
     };
   };
 }

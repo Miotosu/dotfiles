@@ -7,7 +7,7 @@
       ./hardware-configuration.nix
       ../../hyprland.nix
       ../../greetd.nix
-      inputs.home-manager.nixosModules.home-manager { inherit inputs; }
+      
     ];
 
   # Bootloader.
@@ -72,12 +72,7 @@
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
-  home-manager = {
-    extraSpecialArgs = { inherit inputs; };
-    users = {
-      "klouwer" = import ../../home-manager/home.nix { inherit config pkgs inputs; };
-    };
-  };
+  
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
