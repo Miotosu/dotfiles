@@ -7,6 +7,7 @@
       ./hardware-configuration.nix
       ../../hyprland.nix
       ../../greetd.nix
+      inputs.home-manager.nixosModules.home-manager
     ];
 
   # Bootloader.
