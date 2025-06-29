@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   imports =
@@ -82,5 +82,4 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
   home-manager.users.klouwer = import ../../home-manager/home.nix { inherit pkgs inputs; };
-
 }
