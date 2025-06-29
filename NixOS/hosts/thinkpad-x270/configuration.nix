@@ -82,8 +82,7 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
   home-manager.users.klouwer = import ../../home-manager/home.nix {
-    pkgs = config._module.args.pkgs;
-    inputs = config._module.args.inputs;
+    inherit pkgs inputs;
   };
 
 }
