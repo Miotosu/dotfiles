@@ -19,16 +19,16 @@
   time.timeZone = "Europe/Zurich";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_GB.UTF-8";
+  i18n.defaultLocale = "de_CH.UTF-8";
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "gb";
+    layout = "us";
     xkbVariant = "";
   };
 
   # Configure console keymap
-  console.keyMap = "uk";
+  console.keyMap = "us";
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.klouwer = {
