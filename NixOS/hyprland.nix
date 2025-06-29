@@ -4,10 +4,6 @@
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
-    extraConfig = ''
-      exec-once = waybar
-      bind = SUPER, D, exec, wofi --show drun
-    '';
   };
 
   xdg.portal = {
