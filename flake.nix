@@ -18,7 +18,7 @@
         ./NixOS/hosts/thinkpad-x270/configuration.nix
         home-manager.nixosModules.home-manager
       ];
-      home-manager.users.klouwer = import ./NixOS/home-manager/home.nix { inherit pkgs inputs; };
+      home-manager.users.klouwer = import ./NixOS/home-manager/home.nix { pkgs = nixpkgs.legacyPackages.${system}; inherit inputs; };
     };
   };
 }
