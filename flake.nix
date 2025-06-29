@@ -12,14 +12,10 @@
   outputs = { self, nixpkgs, home-manager, ... }@inputs:
     let
       system = "x86_64-linux";
-      pkgs = import nixpkgs {
-        system = system;
-        config.allowUnfree = true;
-      };
     in
     {
       nixosConfigurations."thinkpad-x270" = nixpkgs.lib.nixosSystem {
-        inherit system pkgs;
+        inherit system;
         specialArgs = { inherit inputs; };
         modules = [
           ./NixOS/hosts/thinkpad-x270/configuration.nix
