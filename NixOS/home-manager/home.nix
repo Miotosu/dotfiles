@@ -37,7 +37,6 @@ xwayland             # run X11 apps on Wayland
 # Audio & screen-sharing
 pipewire
 wireplumber
-pipewire-alsa
 pipewire-pulse
 pipewire-jack
 
