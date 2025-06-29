@@ -29,11 +29,4 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-
-  xdg.configFile."hypr/hyprland.conf".text = ''
-    # Hyprland config (add your other settings here)
-
-    exec-once = waybar
-    exec-once = wofi --show drun
-  '';
 }
