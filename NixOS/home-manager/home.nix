@@ -30,7 +30,6 @@ hyprlang
 hyprutils
 hyprwayland-scanner
 pipewire
-qt6-wayland
 
 # Wayland / graphics stack
 xwayland             # run X11 apps on Wayland
@@ -67,7 +66,6 @@ wl-clipboard
 cliphist
 wlogout
 swaylock
-
 
 # Fonts & icons
 ttf-nerd-fonts-symbols
