@@ -34,12 +34,6 @@ pipewire
 # Wayland / graphics stack
 xwayland             # run X11 apps on Wayland
 
-# Audio & screen-sharing
-pipewire
-wireplumber
-pipewire-pulse
-pipewire-jack
-
 # Status bars / shells
 waybar
 ags
