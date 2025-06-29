@@ -15,54 +15,17 @@
   home.stateVersion = "23.11";
 
   home.packages = with pkgs; [
-# Hyprland ecosystem
-hyprpaper
-hypridle
-hyprlock
-hyprpicker
-hyprcursor
-hyprsunset
-
-# Desktop portals (screenshare, Flatpaks, etc.)
-xdg-desktop-portal
-xdg-desktop-portal-hyprland
-hyprlang
-hyprutils
-hyprwayland-scanner
-pipewire
-
-# Wayland / graphics stack
-xwayland             # run X11 apps on Wayland
-
-# Status bars / shells
-waybar
-ags
-eww
-
-# Application launchers & menus
-rofi-wayland
-wofi
-tofi
-fuzzel
-
-# Notification daemons
-mako
-SwayNotificationCenter
-fnott
-dunst
-
-# Terminal emulators
-kitty
-
-# Clipboard, power & misc.
-wl-clipboard
-cliphist
-wlogout
-swaylock
-
-# Fonts & icons
-ttf-nerd-fonts-symbols
-ttf-google-fonts
+    kitty
+    wofi
+    waybar
+    swaylock
+    swayidle
+    mako
+    grim
+    slurp
+    hyprpaper
+    htop
+    
   ];
 
   # Let Home Manager install and manage itself.
