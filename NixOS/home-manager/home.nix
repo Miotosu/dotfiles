@@ -24,8 +24,13 @@
     grim
     slurp
     hyprpaper
-    htop
+    pyprland
+    hyprpicker
+    hyprcursor
+    hyprlock
+    hypridle
     
+  
   ];
 
   # Let Home Manager install and manage itself.
