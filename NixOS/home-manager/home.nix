@@ -33,11 +33,6 @@ pipewire
 qt6-wayland
 
 # Wayland / graphics stack
-wlroots
-wayland
-wayland-protocols
-libinput
-libseat / seatd
 xwayland             # run X11 apps on Wayland
 
 # Audio & screen-sharing
@@ -71,7 +66,6 @@ kitty
 wl-clipboard
 cliphist
 wlogout
-swayidle / hypridle
 swaylock
 
 
