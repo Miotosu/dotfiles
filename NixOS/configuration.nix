@@ -48,8 +48,6 @@
     brightnessctl
     networkmanagerapplet
     pavucontrol
-    firefox
-    neovim
     git
   ];
 }
