@@ -1,4 +1,3 @@
-
 {
   description = "Klouwer's NixOS Flake";
 
@@ -23,7 +22,6 @@
           ./NixOS/hosts/thinkpad-x270/configuration.nix
           home-manager.nixosModules.home-manager
         ];
-        home-manager.users.klouwer = import ./NixOS/home-manager/home.nix { inherit pkgs inputs; };
       };
     };
 }
