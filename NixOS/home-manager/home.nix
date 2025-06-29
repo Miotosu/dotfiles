@@ -14,6 +14,19 @@
   # changes in each release.
   home.stateVersion = "23.11";
 
+  home.packages = with pkgs; [
+    kitty
+    wofi
+    waybar
+    swaylock
+    swayidle
+    mako
+    grim
+    slurp
+    hyprpaper
+    polkit_gnome
+  ];
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
