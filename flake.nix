@@ -15,7 +15,7 @@
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };
       modules = [
-        ./nixos/hosts/thinkpad-x270/configuration.nix
+        ./NixOS/hosts/thinkpad-x270/configuration.nix
       ];
     };
   };
