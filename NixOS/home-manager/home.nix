@@ -24,7 +24,7 @@
     grim
     slurp
     hyprpaper
-    polkit_gnome
+    btop
   ];
 
   # Let Home Manager install and manage itself.
