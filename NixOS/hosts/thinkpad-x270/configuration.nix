@@ -17,10 +17,10 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "Europe/Zurich";
+  time.timeZone = "Europe/Amsterdam";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "de_CH.UTF-8";
+  i18n.defaultLocale = "en_US.UTF-8";
 
   # Configure keymap in X11
   services.xserver = {
