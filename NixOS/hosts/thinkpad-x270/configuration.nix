@@ -6,6 +6,7 @@
     [ 
       ./hardware-configuration.nix
       ../../hyprland.nix
+      ../../greetd.nix
     ];
 
   # Bootloader.
