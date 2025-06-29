@@ -75,7 +75,7 @@
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "klouwer" = import ../../home-manager/home.nix;
+      "klouwer" = import ../../home-manager/home.nix { inherit config pkgs inputs; };
     };
   };
 
