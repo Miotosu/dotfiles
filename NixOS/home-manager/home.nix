@@ -29,9 +29,19 @@
     hyprcursor
     hyprlock
     hypridle
-    
-  
   ];
+
+  wayland.windowManager.hyprland = {
+    enable = true;
+    settings.exec-once = [
+      "waybar"
+      "mako"
+      "swayidle -w"
+      "hyprpaper"
+    ];
+  };
+
+  programs.waybar.enable = true;
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
